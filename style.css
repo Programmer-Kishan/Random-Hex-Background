@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 2%;
+    box-sizing: border-box;
+    /* background: linear-gradient(to right, blue, #000); */
+}
+
+.heading {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+}
+
+#btn {
+    position: absolute;
+    padding: 10px;
+    top: 60%;
+    left: 45%;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px #000;
+}
+
+#hexText {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 70%;
+    font-size: 2rem;
+    left: 28%;
+}
